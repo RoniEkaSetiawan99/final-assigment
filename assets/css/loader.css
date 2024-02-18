@@ -16,6 +16,10 @@ body {
     align-content: center;
 }
 
+main {
+	display: none !important;
+}
+
 body.loaded #loader {
     display: none;
 }
@@ -47,7 +51,7 @@ body.loaded aside,
 body.loaded article,
 body.loaded section
 {
-    display: block;
+    display: block !important;
 }
 
 :root {

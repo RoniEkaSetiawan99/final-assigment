@@ -1,4 +1,4 @@
-const timeout = 700;
+const timeout = 4700;
 const home = `<section>
 <h2>Who <span class="highlightText">am i ?</span></h2>
 </section>
